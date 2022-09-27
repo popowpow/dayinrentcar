@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               DRIVER<span className="text-yellow-500">DAY</span>
             </span>
           </h2>
-          <p className="mt-8 text-sm">
+          <p className="mt-8">
             Pesan jasa supir & rental mobil harian, mingguan, bulanan
           </p>
           <button
@@ -108,13 +108,13 @@ const Home: NextPage = () => {
           <h2 className="text-xl font-bold font-secondary">
             Jadilah Mitra Kami
           </h2>
-          <p className="mt-8 text-sm">
+          <p className="mt-8">
             Kami membuka kesempatan untuk bergabung dengan{" "}
             <span className="font-bold font-logo">
               DRIVER<span className="text-yellow-500">DAY</span>
             </span>
           </p>
-          <p className="mt-8 text-sm font-bold">DAFTARKAN DIRI ANDA SEKARANG</p>
+          <p className="mt-8 font-bold">DAFTARKAN DIRI ANDA SEKARANG</p>
           <button
             className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white"
             onClick={() =>

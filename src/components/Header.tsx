@@ -37,7 +37,10 @@ const Header = () => {
         }`}
       >
         <div>
-          <a className="text-xl font-bold font-logo">
+          <a
+            className="text-xl font-bold font-logo"
+            onClick={() => onLinkClick("/")}
+          >
             DRIVER<span className="text-yellow-500">DAY</span>
           </a>
           <p className="text-xs leading-3">Jasa Supir & Rental Mobil</p>
@@ -73,9 +76,15 @@ const Header = () => {
 
       {isOpen && (
         <nav className="w-screen h-screen bg-white text-center flex flex-col text-sm lg:text-base color-primary px-5">
-          <button className="mt-5">Beranda</button>
-          <button className="mt-5">Cara Pesan</button>
-          <button className="mt-5">Tentang Kami</button>
+          <button className="mt-5" onClick={() => onLinkClick("/")}>
+            Beranda
+          </button>
+          <button className="mt-5" onClick={() => onLinkClick("/order")}>
+            Cara Pesan
+          </button>
+          <button className="mt-5" onClick={() => onLinkClick("/about-us")}>
+            Tentang Kami
+          </button>
         </nav>
       )}
     </header>
