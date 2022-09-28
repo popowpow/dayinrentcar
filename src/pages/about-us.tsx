@@ -17,14 +17,14 @@ const AboutUs: NextPage = () => {
 
       <main>
         <section className="text-center pt-16 bg-cover bg-center bg-no-repeat bg-[url('https://dl.dropboxusercontent.com/s/v2zmgn657o8veqz/order.png?dl=0')]">
-          <div className="py-10">
-            <h1 className="font-secondary font-bold text-4xl text-white">
+          <div className="py-10 lg:py-20">
+            <h1 className="font-secondary font-bold text-4xl md:text-5xl text-white">
               Tentang Kami
             </h1>
           </div>
         </section>
 
-        <section className="bg-white text-center py-20 px-10">
+        <section className="bg-white text-center py-20 px-10 lg:px-40">
           <p className="font-bold font-logo text-2xl">
             DRIVER<span className="text-yellow-500">DAY</span>
           </p>
@@ -40,7 +40,7 @@ const AboutUs: NextPage = () => {
           </p>
         </section>
 
-        <section className="bg-gray-100 py-5">
+        <section className="bg-gray-100 py-5 lg:px-72">
           <div className="bg-white px-10 py-5">
             <p className="text-xl text-red-700 font-bold font-secondary">
               Visi

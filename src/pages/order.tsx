@@ -50,16 +50,16 @@ const Order: NextPage = () => {
 
       <main>
         <section className="text-center pt-16 bg-cover bg-center bg-no-repeat bg-[url('https://dl.dropboxusercontent.com/s/v2zmgn657o8veqz/order.png?dl=0')]">
-          <div className="py-10">
-            <h1 className="font-secondary font-bold text-4xl text-white">
+          <div className="py-10 lg:py-20">
+            <h1 className="font-secondary font-bold text-4xl md:text-5xl text-white">
               Cara Pesan
             </h1>
           </div>
         </section>
 
         <section className="bg-white py-14 flex flex-col justify-center items-center text-center">
-          {ORDER_FLOW.map(({ number, title, desc }) => (
-            <div className="px-24 py-5">
+          {ORDER_FLOW.map(({ number, title, desc }, index) => (
+            <div key={index} className="px-24 py-5">
               <h2 className="text-5xl font-bold text-yellow-500 font-secondary">
                 {number}
               </h2>
