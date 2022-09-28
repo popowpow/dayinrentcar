@@ -16,7 +16,8 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>
-          DriverDay - Jasa Supir dan Rental Mobil Harian, Mingguan, Bulanan
+          DriverDay (Driver Every Day) - Jasa Supir dan Rental Mobil Harian,
+          Mingguan, Bulanan
         </title>
       </Head>
 
@@ -50,13 +51,13 @@ const Home: NextPage = () => {
         </section>
 
         <section className="bg-gray-100 text-center p-20">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-2xl font-bold">
             <span className="font-secondary">Order</span>{" "}
             <span className="font-bold font-logo">
               DRIVER<span className="text-yellow-500">DAY</span>
             </span>
           </h2>
-          <p className="mt-8">
+          <p className="mt-8 text-lg font-bold">
             Pesan jasa supir & rental mobil harian, mingguan, bulanan
           </p>
           <button
@@ -105,18 +106,18 @@ const Home: NextPage = () => {
         </section>
 
         <section className="bg-zinc-700 text-center p-20 text-white">
-          <h2 className="text-xl font-bold font-secondary">
+          <h2 className="text-lg font-bold font-secondary">
             Jadilah Mitra Kami
           </h2>
-          <p className="mt-8">
+          <p className="mt-8 text-sm">
             Kami membuka kesempatan untuk bergabung dengan{" "}
             <span className="font-bold font-logo">
               DRIVER<span className="text-yellow-500">DAY</span>
             </span>
           </p>
-          <p className="mt-8 font-bold">DAFTARKAN DIRI ANDA SEKARANG</p>
+          <p className="mt-8 font-bold text-xs">DAFTARKAN DIRI ANDA SEKARANG</p>
           <button
-            className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white"
+            className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white text-sm"
             onClick={() =>
               onLinkClick(
                 "https://wa.me/+6282124490998?text=Hallo, saya ingin menjadi mitra DriverDay"
