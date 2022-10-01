@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.driverday.id
+
+# Sitemaps
+Sitemap: https://www.driverday.id/sitemap.xml

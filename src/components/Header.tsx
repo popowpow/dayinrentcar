@@ -82,6 +82,9 @@ const Header = () => {
           <button className="mt-5" onClick={() => onLinkClick("/order")}>
             Cara Pesan
           </button>
+          <button className="mt-5" onClick={() => onLinkClick("/gallery")}>
+            Gallery
+          </button>
           <button className="mt-5" onClick={() => onLinkClick("/about-us")}>
             Tentang Kami
           </button>
