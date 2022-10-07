@@ -76,7 +76,7 @@ const AboutUs: NextPage = () => {
             className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white"
             onClick={() =>
               onLinkClick(
-                "https://wa.me/+6282124490998?text=Hallo, saya ingin memesan jasa DriverDay"
+                "https://wa.me/+6282114410396?text=Hallo, saya ingin memesan jasa DriverDay"
               )
             }
           >
