@@ -152,24 +152,23 @@ const Home: NextPage = () => {
 
         <section className="bg-zinc-700 text-center p-20 text-white">
           <h2 className="text-lg font-bold font-secondary">
-            Jadilah Mitra Kami
+            Utamakan Keselamatan dan Kenyamanan Dalam Perjalanan Anda
           </h2>
-          <p className="mt-8 text-sm">
-            Kami membuka kesempatan untuk bergabung dengan{" "}
+          <p className="mt-8 text-lg">
             <span className="font-bold font-logo">
               DRIVER<span className="text-yellow-500">DAY</span>
             </span>
           </p>
-          <p className="mt-8 font-bold text-xs">DAFTARKAN DIRI ANDA SEKARANG</p>
+          <p className="text-sm">Driver Every Day</p>
           <button
             className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white text-sm"
             onClick={() =>
               onLinkClick(
-                "https://wa.me/+6282114410396?text=Hallo, saya ingin menjadi mitra DriverDay"
+                "https://wa.me/+6282114410396?text=Hallo, saya ingin memesan jasa DriverDay"
               )
             }
           >
-            Daftar Menjadi Mitra
+            PESAN SEKARANG
           </button>
         </section>
       </main>
