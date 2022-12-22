@@ -48,7 +48,7 @@ const AboutUs: NextPage = () => {
             <ul className="list-disc pl-5 mt-5">
               <li>
                 Menjadi penyedia layanan jasa supir dan rental mobil nomor 1 di
-                Indonesia yang aman, nyaman, terpercaya, dan berasuransi
+                Indonesia yang aman, nyaman, terpercaya, dan profesional.
               </li>
             </ul>
           </div>

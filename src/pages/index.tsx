@@ -4,8 +4,8 @@ import {
   ShieldShaded,
   StarFill,
   PatchCheckFill,
-  HeartFill,
   PersonFill,
+  HandThumbsUpFill,
 } from "react-bootstrap-icons";
 
 import useClick from "@hooks/useClick";
@@ -65,8 +65,8 @@ const Home: NextPage = () => {
             <p>Terpercaya</p>
           </div>
           <div className="bg-gray-300 h-36 lg:h-52 w-72 lg:w-64 flex flex-col justify-center items-center">
-            <HeartFill className="text-4xl mb-2" />
-            <p>Berasuransi</p>
+            <HandThumbsUpFill className="text-4xl mb-2" />
+            <p>Profesional</p>
           </div>
         </section>
 
