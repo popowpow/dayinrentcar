@@ -3,12 +3,6 @@ import Image from "next/image";
 
 const IMAGE = [
   {
-    image: "https://dl.dropboxusercontent.com/s/u4fu2ixwbzhjdve/1.jpeg?dl=0",
-  },
-  {
-    image: "https://dl.dropboxusercontent.com/s/7ef5s6pvrv2196u/2.jpeg?dl=0",
-  },
-  {
     image: "https://dl.dropboxusercontent.com/s/st5lim9bcnqtjur/3.jpeg?dl=0",
   },
   {
@@ -25,6 +19,18 @@ const IMAGE = [
   },
   {
     image: "https://dl.dropboxusercontent.com/s/xbz22pztynpllzu/8.jpeg?dl=0",
+  },
+  {
+    image: "https://dl.dropboxusercontent.com/s/ov1zjcrafgsrpkh/9.jpeg?dl=0",
+  },
+  {
+    image: "https://dl.dropboxusercontent.com/s/rmjh8bxrvcsu9d1/10.jpeg?dl=0",
+  },
+  {
+    image: "https://dl.dropboxusercontent.com/s/zo78897vo3py0rj/11.jpeg?dl=0",
+  },
+  {
+    image: "https://dl.dropboxusercontent.com/s/ht0h71m0inafrkd/12.jpeg?dl=0",
   },
 ];
 

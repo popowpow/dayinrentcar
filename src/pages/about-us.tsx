@@ -29,14 +29,14 @@ const AboutUs: NextPage = () => {
             DRIVER<span className="text-yellow-500">DAY</span>
           </p>
           <p className="mt-8">
-            DriverDay (Driver Every Day) adalah layanan yang bergerak dibidang
-            jasa supir dan rental mobil aman, nyaman, terpercaya, dan
-            berasuransi. Kami memprioritaskan keamanan dan kenyamanan dalam
-            perjalanan Anda. Kami juga memiliki supir yang berpengalaman dan
-            profesional, dan tidak perlu diragukan lagi dengan berbagai latar
-            belakang dan sertifikat, melalui tahap pelatihan yang ketat. Kami
-            juga memiliki mobil yang aman dan nyaman serta memiliki asuransi
-            kecelakaan disetiap perjalanan Anda.
+            PT. YODANGGA DRIVERDAY INDO SUKSES (DriverDay - Driver Every Day)
+            adalah layanan yang bergerak dibidang jasa supir dan rental mobil
+            aman, nyaman, terpercaya, dan berasuransi. Kami memprioritaskan
+            keamanan dan kenyamanan dalam perjalanan Anda. Kami juga memiliki
+            supir yang berpengalaman dan profesional, dan tidak perlu diragukan
+            lagi dengan berbagai latar belakang dan sertifikat, melalui tahap
+            pelatihan yang ketat. Kami juga memiliki mobil yang aman dan nyaman
+            serta memiliki asuransi kecelakaan disetiap perjalanan Anda.
           </p>
         </section>
 
