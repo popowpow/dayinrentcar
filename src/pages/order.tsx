@@ -7,7 +7,7 @@ const ORDER_FLOW = [
   {
     number: 1,
     title: "Pesan via WhatsApp",
-    desc: "Hubungi nomor ini untuk pesan via WhatsApp +62 821-2449-0998",
+    desc: "Hubungi nomor ini untuk pesan via WhatsApp +62 821-1441-0396",
   },
   {
     number: 2,
