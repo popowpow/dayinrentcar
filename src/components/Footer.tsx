@@ -20,6 +20,17 @@ const Footer = () => {
       </div>
 
       <div className="mt-5">
+        <iframe
+          title="Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253807.26443096486!2d106.75448550123149!3d-6.298052811882506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x24b9b95d617886db%3A0x5b82bab0391ce36!2sJasa%20sewa%20supir%20%2F%20Driverday.id!5e0!3m2!1sen!2sid!4v1685635223502!5m2!1sen!2sid"
+          height="300"
+          allowFullScreen
+          loading="lazy"
+          style={{ width: "-webkit-fill-available" }}
+        ></iframe>
+      </div>
+
+      <div className="mt-5">
         <p className="text-sm font-bold">Kontak Kami</p>
         <div className="flex items-center">
           <PinMap />

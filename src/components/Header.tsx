@@ -43,6 +43,9 @@ const Header = () => {
           >
             DRIVER<span className="text-yellow-500">DAY</span>
           </a>
+          <p className="text-xs font-bold leading-3">
+            PT. YODANGGA DRIVERDAY INDO SUKSES
+          </p>
           <p className="text-xs leading-3">Jasa Supir & Rental Mobil</p>
           <p className="text-xs leading-3">Harian, Mingguan, Bulanan</p>
         </div>

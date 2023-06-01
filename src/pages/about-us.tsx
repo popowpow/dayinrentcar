@@ -73,7 +73,7 @@ const AboutUs: NextPage = () => {
           </p>
           <p className="font-bold text-2xl font-secondary">Pesan Sekarang!</p>
           <button
-            className="mt-8 py-3 px-8 rounded-full font-bold bg-red-700 text-white"
+            className="mt-8 py-3 px-8 rounded-full font-bold bg-gradient-to-tr from-green-600 to-green-400 text-white"
             onClick={() =>
               onLinkClick(
                 "https://wa.me/+6282114410396?text=Hallo, saya ingin memesan jasa DriverDay"
