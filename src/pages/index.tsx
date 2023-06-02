@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap-icons";
 
 import useClick from "@hooks/useClick";
-import { UNIT } from "@constants/unit";
+import { DRIVER, UNIT } from "@constants/order-list";
 
 const TESTIMONIALS = [
   {
@@ -104,36 +104,37 @@ const Home: NextPage = () => {
           <h3 className="text-lg md:text-xl font-bold font-secondary mt-5">
             Jasa Driver Only
           </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center">
-            <div className="mt-5 bg-yellow-500 w-60 text-center p-5 rounded-xl shadow-lg text-gray-100">
-              <h3 className="font-bold text-lg md:text-xl border-b border-gray-100 text-red-700">
-                HARIAN
-              </h3>
-              <p className="mt-5 font-bold md:text-lg">Supir</p>
-              <p className="text-sm md:text-base">Mulai dari Rp240.000</p>
-              <p className="mt-5 font-bold md:text-lg">Mobil</p>
-              <p className="text-sm md:text-base">Mulai dari Rp350.000</p>
-            </div>
-
-            <div className="mt-5 lg:ml-14 bg-yellow-500 w-60 text-center p-5 rounded-xl shadow-lg text-gray-100">
-              <h3 className="font-bold text-lg md:text-xl border-b border-gray-100 text-red-700">
-                MINGGUAN
-              </h3>
-              <p className="mt-5 font-bold md:text-lg">Supir</p>
-              <p className="text-sm md:text-base">Mulai dari Rp1.400.000</p>
-              <p className="mt-5 font-bold md:text-lg">Mobil</p>
-              <p className="text-sm md:text-base">Hubungi Kami</p>
-            </div>
-
-            <div className="mt-5 lg:ml-14 bg-yellow-500 w-60 text-center p-5 rounded-xl shadow-lg text-gray-100">
-              <h3 className="font-bold text-lg md:text-xl border-b border-gray-100 text-red-700">
-                BULANAN
-              </h3>
-              <p className="mt-5 font-bold md:text-lg">Supir</p>
-              <p className="text-sm md:text-base">Mulai dari Rp5.000.000</p>
-              <p className="mt-5 font-bold md:text-lg">Mobil</p>
-              <p className="text-sm md:text-base">Hubungi Kami</p>
-            </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-center mt-5">
+            {DRIVER.map(({ TITLE, IMG, PRICE }) => (
+              <div
+                key={TITLE}
+                className="w-80 xl:w-96 text-center p-5 rounded-xl shadow-lg"
+              >
+                <Image
+                  alt={TITLE}
+                  src={IMG}
+                  width="100%"
+                  height="60%"
+                  layout="responsive"
+                  objectFit="contain"
+                  priority
+                />
+                <p className="text-lg md:text-xl font-bold mt-3 text-red-700">
+                  {TITLE}
+                </p>
+                <p className="text-sm md:text-base">Start From Rp{PRICE}</p>
+                <button
+                  className="w-full mt-5 py-3 px-8 rounded-full font-bold bg-gradient-to-tr from-green-600 to-green-400 text-white text-sm"
+                  onClick={() =>
+                    onLinkClick(
+                      `https://wa.me/+6282114410396?text=Hallo, saya ingin memesan driver ${TITLE}`
+                    )
+                  }
+                >
+                  ORDER SUPIR {TITLE.toLocaleUpperCase()}
+                </button>
+              </div>
+            ))}
           </div>
 
           <h3 className="text-lg md:text-xl font-bold font-secondary mt-7">

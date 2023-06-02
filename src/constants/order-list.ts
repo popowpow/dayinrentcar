@@ -1,3 +1,21 @@
+export const DRIVER = [
+  {
+    TITLE: "Harian",
+    PRICE: "250.000",
+    IMG: "https://dl.dropboxusercontent.com/s/aicbn4eytrzrirj/h.jpeg?dl=0",
+  },
+  {
+    TITLE: "Mingguan",
+    PRICE: "1.750.000",
+    IMG: "https://dl.dropboxusercontent.com/s/sqrsvwjo3t228gg/m.jpeg?dl=0",
+  },
+  {
+    TITLE: "Bulanan",
+    PRICE: "3.500.000",
+    IMG: "https://dl.dropboxusercontent.com/s/z0yw49abimnz7ng/b.jpeg?dl=0",
+  },
+];
+
 export const UNIT = [
   {
     TITLE: "Toyota Avanza All New",
