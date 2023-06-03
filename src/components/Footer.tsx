@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="mt-2">
           PT. YODANGGA DRIVERDAY INDO SUKSES (DriverDay - Driver Every Day)
           adalah layanan yang bergerak dibidang jasa supir dan rental mobil
-          aman, nyaman, terpercaya, dan berasuransi. Kami memprioritaskan
+          aman, nyaman, terpercaya, dan profesional. Kami memprioritaskan
           keamanan dan kenyamanan dalam perjalanan Anda. Kami juga memiliki
           supir yang berpengalaman dan profesional, dan tidak perlu diragukan
           lagi dengan berbagai latar belakang dan sertifikat, melalui tahap
