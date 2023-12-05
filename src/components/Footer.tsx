@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-zinc-900 p-5 pb-0 text-white text-xs">
       <div>
         <p className="font-bold font-logo text-sm">
-          DRIVER<span className="text-yellow-500">DAY</span>
+          DAYIN<span className="text-yellow-500">RENTCAR</span>
         </p>
         <p className="mt-2">
           PT. YODANGGA DRIVERDAY INDO SUKSES (DriverDay - Driver Every Day)
@@ -35,23 +35,23 @@ const Footer = () => {
         <div className="flex items-center">
           <PinMap />
           <p className="mt-1 ml-3">
-            Jl. Bojong Nangka IV No.10, RT.008/RW.008, Jatirahayu,
-            <br /> Kec. Pd. Melati, Kota Bks, Jawa Barat 17414
+            Gg. H. Kunen , Cluster Savana, blok b no 1/2 Jatimelati, Kec. Pd.
+            Melati, Kota Bks, Jawa Barat 17415
           </p>
         </div>
         <div className="flex items-center mt-1">
           <Whatsapp />
-          <p className="mt-1 ml-3">+62 821-1441-0396</p>
+          <p className="mt-1 ml-3">+62 822-4648-1369</p>
         </div>
         <div className="flex items-center mt-1">
           <Instagram />
-          <p className="mt-1 ml-3">@driverday.id</p>
+          <p className="mt-1 ml-3">@dayinrentcar</p>
         </div>
       </div>
 
       <div className="text-center border-t mt-5 py-2">
         <p className="text-[0.65rem]">
-          Copyright © {new Date().getFullYear()}. DriverDay. All rights
+          Copyright © {new Date().getFullYear()}. Dayinrentcar. All rights
           reserved.
         </p>
       </div>

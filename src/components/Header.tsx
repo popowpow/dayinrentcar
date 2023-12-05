@@ -41,13 +41,14 @@ const Header = () => {
             className="text-xl font-bold font-logo"
             onClick={() => onLinkClick("/")}
           >
-            DRIVER<span className="text-yellow-500">DAY</span>
+            DAYIN<span className="text-yellow-500">RENTCAR</span>
           </a>
           <p className="text-xs font-bold leading-3">
             PT. YODANGGA DRIVERDAY INDO SUKSES
           </p>
-          <p className="text-xs leading-3">Jasa Supir & Rental Mobil</p>
-          <p className="text-xs leading-3">Harian, Mingguan, Bulanan</p>
+          <p className="text-xs leading-3">
+            Rental Mobil Harian, Mingguan, Bulanan
+          </p>
         </div>
 
         <button

@@ -8,8 +8,7 @@ const Gallery = () => {
     <>
       <Head>
         <title>
-          Gallery DriverDay - Jasa Supir dan Rental Mobil Harian, Mingguan,
-          Bulanan
+          Gallery Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan
         </title>
       </Head>
 
@@ -24,13 +23,13 @@ const Gallery = () => {
 
         <section className="bg-white text-center py-20 px-10 lg:px-40">
           <p className="font-bold font-logo text-2xl">
-            DRIVER<span className="text-yellow-500">DAY</span>
+            DAYIN<span className="text-yellow-500">RENTCAR</span>
           </p>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {GALLERY.map(({ IMG }) => (
               <div key={IMG} className="max-w-lg drop-shadow-md">
                 <Image
-                  alt="DriverDay"
+                  alt="Dayinrentcar"
                   src={IMG}
                   width="100%"
                   height="60%"

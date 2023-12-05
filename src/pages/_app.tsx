@@ -8,16 +8,16 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        description="Jasa Supir dan Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi"
-        canonical="https://driverday.id/"
+        description="Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi"
+        canonical="https://dayinrentcar.com/"
         openGraph={{
           type: "website",
-          url: "https://driverday.id/",
+          url: "https://dayinrentcar.com/",
           description:
-            "Jasa Supir dan Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi",
+            "Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi",
           images: [
             {
-              url: "https://dl.dropboxusercontent.com/s/joae2hqrnvgv0zb/cover.png?dl=0",
+              url: "https://dl.dropboxusercontent.com/s/b9zh5m741dfd59jc30z3s/cover.jpg?rlkey=fa6yzeapb1x5eiifc7ii7esql&dl=0",
             },
           ],
         }}
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             name: "keywords",
             content:
-              "jasa supir, jasa driver, jasa supir harian, jasa supir mingguan, jasa supir bulanan, jasa supir jakarta, jasa super jabodetabek, rental mobil, rental mobil harian, rental mobil mingguan, rental mobil bulanan",
+              "rental mobil, jasa rental, jasa rental mobil harian, jasa rental mobil mingguan, jasa rental mobil bulanan, jasa rental mobil jakarta, jasa super jabodetabek, rental mobil, rental mobil harian, rental mobil mingguan, rental mobil bulanan",
           },
         ]}
       />

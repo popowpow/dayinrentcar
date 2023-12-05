@@ -12,7 +12,7 @@ const ORDER_FLOW = [
   {
     number: 2,
     title: "Konfirmasi Pesanan",
-    desc: "Admin DriverDay akan mengkonfirmasi terlebih dahulu",
+    desc: "Admin Dayinrentcar akan mengkonfirmasi terlebih dahulu",
   },
   {
     number: 3,
@@ -22,7 +22,7 @@ const ORDER_FLOW = [
   {
     number: 4,
     title: "Surat Tanda Jadi",
-    desc: "Admin DriverDay akan mengirimkan surat tanda jadi via WhatsApp",
+    desc: "Admin Dayinrentcar akan mengirimkan surat tanda jadi via WhatsApp",
   },
   {
     number: 5,
@@ -43,8 +43,7 @@ const Order: NextPage = () => {
     <>
       <Head>
         <title>
-          Cara Pesan DriverDay - Jasa Supir dan Rental Mobil Harian, Mingguan,
-          Bulanan
+          Cara Pesan Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan
         </title>
       </Head>
 
@@ -72,14 +71,14 @@ const Order: NextPage = () => {
         <section className="bg-gray-100 text-center p-20">
           <p className="text-2xl font-bold font-secondary">Ingin Pesan</p>
           <p className="font-bold font-logo text-2xl">
-            DRIVER<span className="text-yellow-500">DAY</span>
+            DAYIN<span className="text-yellow-500">RENTCAR</span>
           </p>
           <p className="font-bold text-2xl font-secondary">Pesan Sekarang!</p>
           <button
             className="mt-8 py-3 px-8 rounded-full font-bold bg-gradient-to-tr from-green-600 to-green-400 text-white"
             onClick={() =>
               onLinkClick(
-                "https://wa.me/+6282114410396?text=Hallo, saya ingin memesan jasa DriverDay"
+                "https://wa.me/+6282246481369?text=Hallo, saya ingin memesan rental mobil Dayinrentcar"
               )
             }
           >
