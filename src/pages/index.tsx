@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             PRICE LIST
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-center mt-5">
-            {UNIT.map(({ TITLE, IMG }) => (
+            {UNIT.map(({ TITLE, IMG, PRICE }) => (
               <div
                 key={TITLE}
                 className="w-80 xl:w-96 text-center p-5 rounded-xl shadow-lg"
@@ -65,6 +65,7 @@ const Home: NextPage = () => {
                   priority
                 />
                 <p className="md:text-lg font-bold mt-3">{TITLE}</p>
+                <p className="md:text-lg font-bold">{PRICE}K</p>
                 <button
                   className="w-full mt-5 py-3 px-8 rounded-full font-bold bg-gradient-to-tr from-green-600 to-green-400 text-white text-sm"
                   onClick={() =>
@@ -73,7 +74,7 @@ const Home: NextPage = () => {
                     )
                   }
                 >
-                  HARGA
+                  PESAN
                 </button>
               </div>
             ))}
