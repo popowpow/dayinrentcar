@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                   priority
                 />
                 <p className="md:text-lg font-bold mt-3">{TITLE}</p>
-                <p className="md:text-lg font-bold">{PRICE}K</p>
+                <p className="md:text-lg font-bold">{PRICE}</p>
                 <button
                   className="w-full mt-5 py-3 px-8 rounded-full font-bold bg-gradient-to-tr from-green-600 to-green-400 text-white text-sm"
                   onClick={() =>
