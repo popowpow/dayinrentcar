@@ -41,8 +41,25 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <section className="text-center pt-16 bg-cover bg-center bg-no-repeat bg-[url('https://dl.dropboxusercontent.com/s/b9zh5m741dfd59jc30z3s/cover.jpg?rlkey=fa6yzeapb1x5eiifc7ii7esql&dl=0')]">
-          <div className="py-40 md:py-56" />
+        <section className="pt-16 bg-cover bg-center bg-no-repeat bg-[url('https://dl.dropboxusercontent.com/s/b9zh5m741dfd59jc30z3s/cover.jpg?rlkey=fa6yzeapb1x5eiifc7ii7esql&dl=0')]">
+          <div className="pt-72 pb-4 md:pt-96 text-center">
+            <p className="md:text-lg font-bold mb-2">Tersedia layanan:</p>
+            <div className="flex justify-center text-sm md:text-base tracking-tight">
+              <ul className="list-none">
+                <li>Sewa mobil + driver</li>
+                <li>Sewa mobil paket all in</li>
+                <li>Sewa mobil paket wisata</li>
+              </ul>
+              <ul className="list-none ml-5">
+                <li>Sewa mobil paket wedding</li>
+                <li>Airport transfer</li>
+                <li>Drop off dalam/luar kota</li>
+              </ul>
+            </div>
+            <p className="md:text-lg font-bold mt-2">
+              More info hub admin +62 822-4648-1369
+            </p>
+          </div>
         </section>
 
         <section className="bg-white pt-10 pb-20 text-center">
