@@ -10,7 +10,8 @@ const AboutUs: NextPage = () => {
     <>
       <Head>
         <title>
-          Tentang Kami Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan
+          Tentang Kami Dayinrentcar - Sewa mobil plus driver, aman, nyaman,
+          terpercaya dan profesional
         </title>
       </Head>
 

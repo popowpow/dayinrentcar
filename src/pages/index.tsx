@@ -37,7 +37,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan</title>
+        <title>
+          Dayinrentcar - Sewa mobil plus driver, aman, nyaman, terpercaya dan
+          profesional
+        </title>
       </Head>
 
       <main>

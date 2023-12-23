@@ -43,7 +43,8 @@ const Order: NextPage = () => {
     <>
       <Head>
         <title>
-          Cara Pesan Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan
+          Cara Pesan Dayinrentcar - Sewa mobil plus driver, aman, nyaman,
+          terpercaya dan profesional
         </title>
       </Head>
 

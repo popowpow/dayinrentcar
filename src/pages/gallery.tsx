@@ -8,7 +8,8 @@ const Gallery = () => {
     <>
       <Head>
         <title>
-          Gallery Dayinrentcar - Rental Mobil Harian, Mingguan, Bulanan
+          Gallery Dayinrentcar - Sewa mobil plus driver, aman, nyaman,
+          terpercaya dan profesional
         </title>
       </Head>
 

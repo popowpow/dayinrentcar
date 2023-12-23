@@ -8,13 +8,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        description="Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi"
+        description="Sewa mobil plus driver segala jenis unit mobil, harian, mingguan, bulanan, dan tahunan"
         canonical="https://dayinrentcar.com/"
         openGraph={{
           type: "website",
           url: "https://dayinrentcar.com/",
           description:
-            "Rental Mobil Harian, Mingguan dan Bulanan. Aman, nyaman, terpercaya, dan berasuransi",
+            "Sewa mobil plus driver segala jenis unit mobil, harian, mingguan, bulanan, dan tahunan",
           images: [
             {
               url: "https://dl.dropboxusercontent.com/s/b9zh5m741dfd59jc30z3s/cover.jpg?rlkey=fa6yzeapb1x5eiifc7ii7esql&dl=0",
